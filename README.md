@@ -1,90 +1,52 @@
 ![header](pics/header.png)
-# Title
-**project** is a 
+# Solidity Savings Account
+The **Solidity_SavingsAccount** demonstrates a Solidity smart contract operates on the Ethereum-compatible blockchain empowers a financial institution to automate the creation of joint savings accounts. The smart contract will use ether management functions to implement the institution’s requirements for providing deposit and withdraw services for customers on the account.
 ---
 ---
-
-# **Link to the web application** click [here](http://)
-
 
 Content incudes:
 
 * [Technologies](#technologies)
 
-* [App Development](#app-development)
+* [Development](#development)
 
-* [App Demo](#app-demo)
+* [Demo](#demo)
 
 * [Contributors](#contributors)
 
 ---
 
 ## Technologies
->This project leverages python 3.7
+>This project leverages Solidity 0.5.0
 
-* [Streamlit](https://streamlit.io/) - Deploy application into shareable web app
+* [Solidity](https://docs.soliditylang.org/en/v0.8.15/) - object-oriented, high-level language for implementing smart contracts
 
-* [Dataclasses](https://docs.python.org/3/library/dataclasses.html) - Use the decorator and functions to generate methods automatically
-
-* [Typing](https://docs.python.org/3/library/typing.html) - Provides runtime support for type hints
-
-* [Datetime](https://docs.python.org/3/library/datetime.html) - Supplies classes for date and time manipulations
-
-* [Pandas](https://pandas.pydata.org/) - Data analysis and manipulation
-
-* [Hashlib](https://docs.python.org/3/library/hashlib.html) - Implements a common interface to different secure hash and message digest algorithms
+* [Remix IDE](https://remix.ethereum.org/) - allows developing, deploying and administering smart contracts for Ethereum like blockchains. It can also be used as a learning platform
 
 ---
 
-## App Development
-Create 3 dataclasses: 
-* Class Record: defines inpute data and its type
-* Class Block: process and encode inpute data to create a hash for blocks
-* Class PyChain: defines difficulties, add each block, and validate the entire blockchain
+## Development
+**Create a `sol` file** on Remix IDE
 
-Streamlit deployemt:
-Designs and deploy app application
+* Create functions with defied variables and variable types
+
+**Compile and deploy the `sol` file**
+
+![compile](Execution_results/compiled.png)
+
+![deploy](Execution_results/deployed.png)
 
 ---
 
 ## App Demo
 
-Go to the file folder contains pychian.py file and 
+**Make deposits**
 
-**Run application using command line** under the virtual environment contains all necessary dependencies
+![deposit](Execution_results/after_all_deposit.png)
 
-```python
-streamlit run pychain.py
-```
+**Withdraws**
 
-![commandline](pics/commandline.png)
-
----
-
-
-**Input Data and add to blockchain**
-
-![1](pics/1.png)
-
----
-
-**Record each transaction**
-
-As the Block Difficulty increased from 2 to 4, it took the nonce increased significantly.
-
-![2](pics/2.png)
-![3](pics/3.png)
-
----
-**Block Inspector displays selected block information**
-
-![4](pics/4.png)
-
----
-
-**Chain validation shows the blockchain is safe and trustworthy**
-
-![5](pics/5.png)
+![withdraw](execution_results/after_all_withdraws.png)
 
 ---
 
