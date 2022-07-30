@@ -32,9 +32,9 @@ Content incudes:
 
 **Compile and deploy the `sol` file**
 
-![compile](Execution_results/compiled.jpg)
+![compile](Execution_results/compiled.png)
 
-![deploy](Execution_results/deployed.jpg)
+![deploy](Execution_results/deployed.png)
 
 ---
 
@@ -42,11 +42,11 @@ Content incudes:
 
 **Make deposits**
 
-![deposit](Execution_results/after_all_deposit.jpg)
+![deposit](Execution_results/after_all_deposit.png)
 
 **Withdraws**
 
-![withdraw](execution_results/after_all_withdraws.jpg)
+![withdraw](execution_results/after_all_withdraws.png)
 
 ---
 
